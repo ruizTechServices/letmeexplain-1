@@ -19,7 +19,7 @@ This is a step-by-step, actionable roadmap for building the LetMeExplain SaaS pl
     ```bash
     npx shadcn-ui@latest init
     ```
-- [ ] **Version Control & CI/CD:**
+- [✅] **Version Control & CI/CD:**
   - Initialize a Git repository:
     ```bash
     git init
@@ -30,7 +30,7 @@ This is a step-by-step, actionable roadmap for building the LetMeExplain SaaS pl
     git push -u origin main
     ```
   - Configure Vercel for continuous deployment by linking the GitHub repository in the Vercel dashboard.
-- [ ] **Environment Configuration:**
+- [✅] **Environment Configuration:**
   - Create a `.env` file in the project root.
   - Install `dotenv-safe`:
     ```bash
@@ -134,7 +134,6 @@ This is a step-by-step, actionable roadmap for building the LetMeExplain SaaS pl
     ```json
     {
       "original": "Your place is filthy...",
-      "cleaned": "The location could benefit from more frequent cleaning...",
       "selected": "The location could benefit from more frequent cleaning...",
       "submittedAt": "2025-04-05T18:00:00Z"
     }
